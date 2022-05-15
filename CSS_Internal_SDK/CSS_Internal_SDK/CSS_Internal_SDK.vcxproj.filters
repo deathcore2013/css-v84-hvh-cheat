@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\Start">
+      <UniqueIdentifier>{ad927179-1871-4b3e-8fdb-2edb361661f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Stuff">
+      <UniqueIdentifier>{d7e1172e-7e15-4a37-a731-7a901716e5c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Entity">
+      <UniqueIdentifier>{7c2275d2-f5fa-4dd4-a378-4fe7b6a7d5f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\NoSpread">
+      <UniqueIdentifier>{b9e7bfca-8db0-46be-bb88-3dae87ae8d35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Math">
+      <UniqueIdentifier>{09c0ae3a-d932-4176-aeda-6c1d8ddeaf48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\VMT">
+      <UniqueIdentifier>{c133c811-15a2-4bfc-9fc6-b848a7d85e47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Hooks">
+      <UniqueIdentifier>{57779026-83fe-4a71-b587-f2284ec57fbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Tools">
+      <UniqueIdentifier>{8fa9d46d-af3e-4e9a-9862-7b5dfb93ffa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Linker">
+      <UniqueIdentifier>{cbcfaced-db6d-4047-a9ae-b5346ec61aef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Aimbot">
+      <UniqueIdentifier>{76c75c54-c55f-4d71-9631-c1e5dbcb991e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Engine">
+      <UniqueIdentifier>{e0430be8-a090-41a7-8f33-eb956d010c77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Draw">
+      <UniqueIdentifier>{bfeb627b-b068-4b99-99fd-9e3ddeb0deb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\ESP">
+      <UniqueIdentifier>{3fddb920-87b2-4e17-8cd7-41c5e779cafd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Console">
+      <UniqueIdentifier>{77cd4f40-ecac-4ef8-b9dd-10f9e11f4647}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DLLMain.cpp">
+      <Filter>Quelldateien\Start</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Stuff.cpp">
+      <Filter>Quelldateien\Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Ent.cpp">
+      <Filter>Quelldateien\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>Quelldateien\NoSpread</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Quelldateien\NoSpread</Filter>
+    </ClCompile>
+    <ClCompile Include="NoSpread.cpp">
+      <Filter>Quelldateien\NoSpread</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Quelldateien\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook.cpp">
+      <Filter>Quelldateien\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>Quelldateien\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Linker.cpp">
+      <Filter>Quelldateien\Linker</Filter>
+    </ClCompile>
+    <ClCompile Include="checksum.cpp">
+      <Filter>Quelldateien\Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Quelldateien\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="cEngine.cpp">
+      <Filter>Quelldateien\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw.cpp">
+      <Filter>Quelldateien\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="cESP.cpp">
+      <Filter>Quelldateien\ESP</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Quelldateien\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEvent.cpp">
+      <Filter>Quelldateien\Stuff</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DLLMain.h">
+      <Filter>Quelldateien\Start</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Stuff.h">
+      <Filter>Quelldateien\Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Ent.h">
+      <Filter>Quelldateien\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.h">
+      <Filter>Quelldateien\NoSpread</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Quelldateien\NoSpread</Filter>
+    </ClInclude>
+    <ClInclude Include="NoSpread.h">
+      <Filter>Quelldateien\NoSpread</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Quelldateien\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="VmtHook.h">
+      <Filter>Quelldateien\VMT</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook.h">
+      <Filter>Quelldateien\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>Quelldateien\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Linker.h">
+      <Filter>Quelldateien\Linker</Filter>
+    </ClInclude>
+    <ClInclude Include="Prediction.h">
+      <Filter>Quelldateien\Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Quelldateien\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="cEngine.h">
+      <Filter>Quelldateien\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.h">
+      <Filter>Quelldateien\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="cESP.h">
+      <Filter>Quelldateien\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface.h">
+      <Filter>Quelldateien\Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Quelldateien\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameEvent.h">
+      <Filter>Quelldateien\Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
